@@ -13,7 +13,6 @@ import java.util.logging.Logger;
 @Controller
 @RequestMapping(value = "/product")
 public class ProductControl {
-    private static final Logger = LoggerFactory.
     @Autowired
     private ProductServiceImpl productServiceImpl;
     @ResponseBody
